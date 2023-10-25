@@ -1,0 +1,64 @@
+nav {
+    background-image: linear-gradient(to bottom right, #8E2DE2, #4A00E0);
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+}
+
+.icon-nav {
+    width: 30px;
+    height: 30px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.flex-icon {
+    display: flex;
+    width: 100%;
+    cursor: pointer;
+}
+
+.text-icon {
+    color: white;
+    font-size: 25px;
+    font-weight: 700;
+    margin-left: 20px;
+}
+
+.blok-nav {
+    height: 70px;
+}
+
+.title-materi {
+    margin-top: 30px;
+    color: #8E2DE2;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+
+}
+
+.center-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.card-margin {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 30px;
+}
+
+@media only screen and (orientation: landscape) {
+    .card-margin {
+        width: 1100px;
+    }
+}

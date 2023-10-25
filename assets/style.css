@@ -134,6 +134,26 @@ nav {
     background-color: rgb(6, 188, 6);
     border: none;
     border-radius: 15px;
+    width: 170px;
+}
+
+.container-materi {
+    background-image: linear-gradient(to bottom right, #2de269, #4A00E0);
+    height: 400px;
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 15px;
+}
+
+.btn-materi {
+    padding: 10px;
+    color: white;
+    font-weight: 700;
+    background-color: #e28d2d;
+    border: none;
+    border-radius: 15px;
+    width: 170px;
 }
 
 .container-kontak {
@@ -177,7 +197,10 @@ nav {
 
     nav {
         background-image: url(image/header-hd.jpg);
-        height: 350px;
+        height: 400px;
+        margin-left: 20px;
+        margin-right: 20px;
+        border-radius: 15px;
     }
 
     .title-1 {
