@@ -38,6 +38,14 @@ include("head.php");
         </div>
     </div>
 
+    <div class="card shadow mt-5" style="width: 290px;">
+        <img src="../assets/materi/icon-lagu.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">Mengiringi Lagu</h5>
+            <a href="index-lagu.php" class="btn btn-primary mt-3">Lihat</a>
+        </div>
+    </div>
+
 </div>
 
 <?php

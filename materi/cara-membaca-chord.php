@@ -12,7 +12,8 @@ include("head.php");
             <div class="mt-2">Berikut ini adalah contoh cara untuk membaca chord gitar <span class="fw-bolder">
                     Em</span></div>
 
-            <div class="mt-3"><img src="../assets/materi/chord-em1.png" class="img-fluid" alt="..."></div>
+            <div class="mt-3 d-flex justify-content-center"><img src="../assets/materi/Em.png" class="img-fluid"
+                    alt="..."></div>
 
             <div class="mt-4">
                 <li class="mt-2">Angka 1 sampai 6 di bawah artinya adalah urutan senar, Nomor 1 adalah senar paling
