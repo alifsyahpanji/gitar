@@ -230,6 +230,21 @@ nav {
     width: 170px;
 }
 
+/* Page Data */
+
+.container-data {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+
+.body-data {
+    background-image: linear-gradient(to bottom right, #e22d30, #4A00E0);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
 
 
 
