@@ -102,11 +102,28 @@
         <div class="box-cta">
             <div class="text-cta">Mulai lah pengalaman yang seru dan menyenangkan dalam bermain gitar</div>
 
-            <div class="mt-4">
-                <a href="https://wa.me/6283842368811" target="_blank">
-                    <button class="btn-cta">Whatsapp Kami</button>
-                </a>
-            </div>
+            <form action="daftar.php" method="post">
+                <div class="mt-4">
+                    <label for="nama" class="form-label label-cta">Nama:</label>
+                    <input type="text" class="form-control size-input" id="nama" name="nama" required>
+                </div>
+
+
+                <div class="mt-3">
+                    <label for="telepon" class="form-label label-cta">Telepon:</label>
+                    <input type="number" class="form-control size-input" id="telepon" name="telepon" required>
+                </div>
+
+                <div class="mt-3">
+                    <label for="alamat" class="form-label label-cta">Alamat:</label>
+                    <textarea class="form-control size-input" id="alamat" rows="3" name="alamat"></textarea>
+
+                </div>
+
+                <div class="mt-4 d-flex justify-content-center">
+                    <button class="btn-cta">Daftar</button>
+                </div>
+            </form>
 
         </div>
     </div>

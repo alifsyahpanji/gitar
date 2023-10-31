@@ -107,7 +107,7 @@ nav {
 
 .container-cta {
     background-image: linear-gradient(to bottom right, #e22d30, #4A00E0);
-    height: 400px;
+    height: 700px;
     margin-top: 30px;
     margin-left: 20px;
     margin-right: 20px;
@@ -129,6 +129,12 @@ nav {
     font-size: 22px;
     font-weight: 600;
     text-align: center;
+}
+
+.label-cta {
+    color: white;
+    font: 18px;
+    font-weight: 600;
 }
 
 .btn-cta {
@@ -194,6 +200,36 @@ nav {
     margin-top: 40px;
 }
 
+/* Status CSS */
+
+.container-status {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: linear-gradient(to bottom right, #e22d30, #4A00E0);
+}
+
+.text-status {
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    overflow-wrap: break-word;
+    text-align: center;
+    padding: 20px;
+}
+
+.btn-status {
+    padding: 10px;
+    color: white;
+    font-weight: 700;
+    background-color: rgb(6, 188, 6);
+    border: none;
+    border-radius: 15px;
+    width: 170px;
+}
+
 
 
 
@@ -232,10 +268,20 @@ nav {
         height: 400px;
     }
 
+
     .text-cta {
 
         font-size: 30px;
         font-weight: 600;
 
     }
+
+    .size-input {
+        width: 500px;
+    }
+
+    .text-status {
+        font-size: 40px;
+    }
+
 }
