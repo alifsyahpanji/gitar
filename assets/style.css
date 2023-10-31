@@ -76,7 +76,7 @@ nav {
 
 .container-syarat {
     background-image: linear-gradient(to bottom right, #e22dac, #4A00E0);
-    height: 500px;
+    height: 550px;
     margin-top: 30px;
     margin-left: 20px;
     margin-right: 20px;
@@ -86,6 +86,10 @@ nav {
 .box-syarat {
     padding: 20px;
     overflow-wrap: break-word;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
 }
 
 .title-text-syarat {
@@ -224,7 +228,8 @@ nav {
     }
 
     .container-syarat {
-        width: 1200px;
+        width: 100%;
+        height: 400px;
     }
 
     .text-cta {
