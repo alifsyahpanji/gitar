@@ -5,8 +5,11 @@ $nama = $_POST["nama"];
 $telepon = $_POST["telepon"];
 $alamat = $_POST["alamat"];
 
-$sql_input = "INSERT INTO pendaftaran (nama, telepon, alamat)
-VALUES ('$nama', '$telepon', '$alamat');";
+date_default_timezone_set("Asia/Jakarta");
+$tanggal = date("Y-m-d");
+
+$sql_input = "INSERT INTO pendaftaran (nama, telepon, alamat, tanggal)
+VALUES ('$nama', '$telepon', '$alamat', '$tanggal');";
 $run_sql_input = mysqli_query($conn, $sql_input);
 
 if ($run_sql_input) {

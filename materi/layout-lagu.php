@@ -15,13 +15,13 @@ include("head.php");
             <div class="mt-4 text-center"><span class="fw-bolder">C = 1 Do</span></div>
 
             <div class="mt-4 fw-bolder">
-                Intro: (Struming 1x)
+                Intro: Strumming 1x
             </div>
 
             <div class="mt-1">C G Am Em F C Am G G</div>
             <div class="mt-1">C G Am Em F C Am G G</div>
 
-            <div class="mt-2 fw-bolder">
+            <div class="mt-3 fw-bolder">
                 Verse 1:
             </div>
 

@@ -1,4 +1,10 @@
 <?php
+session_start();
+if ($_SESSION["pass"] == "") {
+    header("Location: login.html");
+    die();
+}
+
 
 include("env.php");
 
@@ -11,6 +17,12 @@ function fiturWa($data_telepon)
     $remove_number = substr($data_telepon, 1);
     $result = "https://wa.me/62" . $remove_number;
     return $result;
+}
+
+function tgl($data_tgl)
+{
+    $newDate = date("d-F-Y", strtotime($data_tgl));
+    return $newDate;
 }
 
 
@@ -66,6 +78,10 @@ function fiturWa($data_telepon)
 
                             <div class="mt-1">Alamat: <span class="fw-bolder">
                                     <?php echo $row_result["alamat"]; ?>
+                                </span> </div>
+
+                            <div class="mt-1">Tanggal Daftar: <span class="fw-bolder">
+                                    <?php echo tgl($row_result["tanggal"]); ?>
                                 </span> </div>
 
 
