@@ -124,11 +124,26 @@ nav {
     height: 100%;
 }
 
+.box-materi {
+    padding: 20px;
+    overflow-wrap: break-word;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+
 .text-cta {
     color: white;
     font-size: 22px;
     font-weight: 600;
     text-align: center;
+}
+
+.list-cta {
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
 }
 
 .label-cta {
@@ -293,6 +308,12 @@ nav {
         font-size: 30px;
         font-weight: 600;
 
+    }
+
+    .list-cta {
+        font-size: 20px;
+        font-weight: 600;
+        color: white;
     }
 
     .size-input {
